@@ -93,8 +93,8 @@ TOTAL_FREE_SPACE=0
 
 # Verify Needed Packages
 function install_bc(){
-    sudo apt -y update
-    sudo apt -y install bc
+    sudo apt-get -y update
+    sudo apt-get -y install bc
 }
 
 install_bc
