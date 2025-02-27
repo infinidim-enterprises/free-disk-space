@@ -28,13 +28,13 @@ jobs:
     if: github.event_name == 'push'
     strategy:
       matrix:
-        os: [ubuntu-22.04, ubuntu-20.04]
+        os: [ubuntu-22.04, ubuntu-20.04, ubuntu-minimal]
         one_command: [true, false]
     runs-on: ${{ matrix.os }}
     steps:
 
       - name: Free Disk Space
-        uses: endersonmenezes/free-disk-space@main
+        uses: infinidim-enterprises/free-disk-space@master
         with:
           remove_android: true
           remove_dotnet: true
