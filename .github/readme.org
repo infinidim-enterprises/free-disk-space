@@ -1,5 +1,4 @@
 #+title: Credits
 
-[[https://github.com/jlumbroso/free-disk-space][github.com/jlumbroso]]
-
-[[https://github.com/endersonmenezes/free-disk-space][endersonmenezes/free-disk-space]]
+*** [[https://github.com/jlumbroso/free-disk-space][jlumbroso/free-disk-space]]
+*** [[https://github.com/endersonmenezes/free-disk-space][endersonmenezes/free-disk-space]]
